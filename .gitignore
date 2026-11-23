@@ -19,6 +19,7 @@ data/*.part
 lean/.lake/
 
 # 빌드/배포 임시 파일 및 번들
+paper/certmat_paper.pdf
 paper/certmat_overleaf_bundle.zip
 paper/.issue_body.md
 *.part
