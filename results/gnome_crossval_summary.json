@@ -1,0 +1,1955 @@
+{
+  "stage": "gnome_crossval",
+  "elapsed_sec": 436.85,
+  "n_matched_materials": 117043,
+  "n_dropped_parse": {
+    "pbe": 0,
+    "r2scan": 0
+  },
+  "theorem2_pbe_vs_r2scan_decomposition": {
+    "n_materials": 117043,
+    "n_elements": 83,
+    "matrix_rank": 83,
+    "condition_number": 697.344579390126,
+    "raw_mae_mev": 78.89503174047144,
+    "raw_rmse_mev": 101.0290119526047,
+    "residual_mae_mev": 30.96000359014421,
+    "residual_rmse_mev": 50.65197862843123,
+    "variance_explained_by_ref_shift_r2": 0.7351036929768797,
+    "mae_reduction_pct": 60.757980690104205,
+    "elemental_shifts_ev": {
+      "Ac": -0.16009381528823194,
+      "Ag": 0.09303901394152024,
+      "Al": -0.06063547841872444,
+      "As": -0.16760480921826948,
+      "Au": -0.03760295691698094,
+      "B": -0.04486984296627489,
+      "Ba": -0.13412521281761564,
+      "Be": -0.027695197993031384,
+      "Bi": -0.16613236143808924,
+      "Br": 0.22696764079607146,
+      "C": -0.16356948429503493,
+      "Ca": -0.08745222892672343,
+      "Cd": 0.007978107920206035,
+      "Ce": -0.1157546211975071,
+      "Cl": 0.36207318260114785,
+      "Co": 0.23024329010757827,
+      "Cr": 0.15795129053113605,
+      "Cs": -0.19051766883516652,
+      "Cu": 0.019691196306953075,
+      "Dy": -0.12034582567862226,
+      "Er": -0.09511982739120023,
+      "Eu": 0.01250346289385737,
+      "F": 0.1175763425835637,
+      "Fe": 0.2811353847605398,
+      "Ga": -0.06555328360423454,
+      "Gd": -0.002288936069919166,
+      "Ge": -0.07899857255587761,
+      "H": 0.07374709289665658,
+      "Hf": -0.06810564609916053,
+      "Hg": -0.0009473703157003438,
+      "Ho": -0.10851093516341889,
+      "I": 0.04064637266590765,
+      "In": -0.16351022872572796,
+      "Ir": -0.07372878310679676,
+      "K": -0.1202858632975124,
+      "La": -0.12563488703912265,
+      "Li": -0.05653579162818398,
+      "Lu": -0.10105925008992933,
+      "Mg": 0.007673029303715613,
+      "Mn": -0.06266302486384732,
+      "Mo": -0.00776758901037547,
+      "N": 0.024954684101987964,
+      "Na": -0.12015039039259276,
+      "Nb": -0.01718308246353477,
+      "Nd": -0.13032410664359456,
+      "Ni": 0.07000700487544681,
+      "Np": -0.8577554343054865,
+      "O": 0.306263780384598,
+      "Os": -0.04997812756712911,
+      "P": -0.12685965321664897,
+      "Pa": -0.06784153393110615,
+      "Pb": -0.20419674889524958,
+      "Pd": 0.02120543184975132,
+      "Pm": -0.26426798074343427,
+      "Pr": -0.11965979308344929,
+      "Pt": -0.10411973814663378,
+      "Pu": -0.4214779705476437,
+      "Rb": -0.14307094960389516,
+      "Re": -0.017994245013883452,
+      "Rh": -0.030657045560387473,
+      "Ru": 0.015083449496473167,
+      "S": 0.23982081483441456,
+      "Sb": 0.03415073703532348,
+      "Sc": -0.04683460726558164,
+      "Se": 0.19002908915654795,
+      "Si": -0.04382959515263478,
+      "Sm": -0.25694517166924524,
+      "Sn": -0.04878297618231312,
+      "Sr": -0.13466166772987576,
+      "Ta": -0.029232367727330767,
+      "Tb": -0.12680572575033489,
+      "Tc": 0.020439493278442522,
+      "Te": 0.18571624720535457,
+      "Th": -0.06645144370888798,
+      "Ti": -0.040136298865332175,
+      "Tl": 0.8821526945257955,
+      "Tm": -0.09942889710430775,
+      "U": -0.29361656228407335,
+      "V": -0.06513355611899115,
+      "W": 0.020813774738596785,
+      "Y": -0.07147885937900131,
+      "Zn": -0.01690880721679211,
+      "Zr": -0.10061961541661343
+    },
+    "class_residual_stats": {
+      "chalcogenide_pnictide": {
+        "count": 7065,
+        "mae_mev": 28.3824808523587,
+        "median_mev": 19.906793875873504,
+        "p75_mev": 38.13155456398269,
+        "p90_mev": 63.199193913426434,
+        "p95_mev": 83.9681416429933,
+        "hetero_profile_width_mev": 25.0,
+        "empirical_coverage_at_profile_pct": 58.58,
+        "empirical_coverage_at_25mev_pct": 58.58
+      },
+      "f_block_non_oxide": {
+        "count": 70950,
+        "mae_mev": 24.86056430794546,
+        "median_mev": 17.409765430922665,
+        "p75_mev": 32.00220493953782,
+        "p90_mev": 53.6131706724535,
+        "p95_mev": 71.10035617503438,
+        "hetero_profile_width_mev": 45.0,
+        "empirical_coverage_at_profile_pct": 85.38,
+        "empirical_coverage_at_25mev_pct": 65.34
+      },
+      "f_block_oxide_fluoride": {
+        "count": 6662,
+        "mae_mev": 67.86181959398094,
+        "median_mev": 48.29110586488003,
+        "p75_mev": 92.87937735837771,
+        "p90_mev": 159.02409617449706,
+        "p95_mev": 211.35469430966506,
+        "hetero_profile_width_mev": 55.0,
+        "empirical_coverage_at_profile_pct": 55.49,
+        "empirical_coverage_at_25mev_pct": 28.63
+      },
+      "ggau_oxide_fluoride": {
+        "count": 2145,
+        "mae_mev": 94.65087090617985,
+        "median_mev": 72.39357989883325,
+        "p75_mev": 132.1318667218239,
+        "p90_mev": 213.96237942413788,
+        "p95_mev": 264.8387482565818,
+        "hetero_profile_width_mev": 50.0,
+        "empirical_coverage_at_profile_pct": 35.06,
+        "empirical_coverage_at_25mev_pct": 19.11
+      },
+      "halide_oxide_main": {
+        "count": 4822,
+        "mae_mev": 65.37880783109394,
+        "median_mev": 50.6223349610663,
+        "p75_mev": 98.57975621703693,
+        "p90_mev": 144.71198823150954,
+        "p95_mev": 168.58612940684898,
+        "hetero_profile_width_mev": 30.0,
+        "empirical_coverage_at_profile_pct": 33.39,
+        "empirical_coverage_at_25mev_pct": 28.45
+      },
+      "intermetallic": {
+        "count": 12161,
+        "mae_mev": 19.928514397649145,
+        "median_mev": 16.280775834999872,
+        "p75_mev": 26.36858936602718,
+        "p90_mev": 40.082504809416406,
+        "p95_mev": 51.18111102491594,
+        "hetero_profile_width_mev": 15.0,
+        "empirical_coverage_at_profile_pct": 46.18,
+        "empirical_coverage_at_25mev_pct": 72.09
+      },
+      "tm_non_oxide": {
+        "count": 13238,
+        "mae_mev": 33.73195347865244,
+        "median_mev": 20.788413346004187,
+        "p75_mev": 43.67371349534007,
+        "p90_mev": 81.46720817613416,
+        "p95_mev": 110.05786376798973,
+        "hetero_profile_width_mev": 35.0,
+        "empirical_coverage_at_profile_pct": 67.96,
+        "empirical_coverage_at_25mev_pct": 57.08
+      }
+    }
+  },
+  "matched_pbe_intracatalog_summary": {
+    "dataset": "GNoME-Matched-PBE-117k",
+    "elapsed_sec": 108.32,
+    "n_total": 117043,
+    "n_dropped_parse": 0,
+    "n_competed_audited": 117043,
+    "n_uncompeted_elemental": 0,
+    "n_exact_verified": 117043,
+    "exact_verified_pct_of_competed": 100.0,
+    "n_z3_fallback": 48,
+    "z3_fallback_pct": 0.041010568765325564,
+    "n_nom_stable": 116877,
+    "n_nom_unstable": 166,
+    "n_exact_zero_margin_boundary": 346,
+    "n_near_zero_margin_lt_1mev": 6824,
+    "nom_unstable_same_composition_polymorph": 0,
+    "nom_unstable_cross_composition_decomp": 166,
+    "index_metadata": {
+      "n_elements": 83,
+      "n_injected_zero_elemental_refs": 83,
+      "injected_elemental_refs_sample": [
+        "ELEM_REF_Ac",
+        "ELEM_REF_Ag",
+        "ELEM_REF_Al",
+        "ELEM_REF_As",
+        "ELEM_REF_Au",
+        "ELEM_REF_B",
+        "ELEM_REF_Ba",
+        "ELEM_REF_Be",
+        "ELEM_REF_Bi",
+        "ELEM_REF_Br",
+        "ELEM_REF_C",
+        "ELEM_REF_Ca",
+        "ELEM_REF_Cd",
+        "ELEM_REF_Ce",
+        "ELEM_REF_Cl",
+        "ELEM_REF_Co",
+        "ELEM_REF_Cr",
+        "ELEM_REF_Cs",
+        "ELEM_REF_Cu",
+        "ELEM_REF_Dy"
+      ],
+      "n_negative_elemental_phases": 0,
+      "negative_elemental_phases_sample": []
+    },
+    "all_status_10mev": {
+      "Certified_Robust_Stable": 93761,
+      "Fragile": 23282
+    },
+    "all_status_25mev": {
+      "Fragile": 36138,
+      "Certified_Robust_Stable": 80905
+    },
+    "all_status_50mev": {
+      "Fragile": 51452,
+      "Certified_Robust_Stable": 65591
+    },
+    "all_status_hetero": {
+      "Fragile": 43238,
+      "Certified_Robust_Stable": 73805
+    },
+    "nom_stable_status_10mev": {
+      "Certified_Robust_Stable": 93761,
+      "Fragile": 23116
+    },
+    "nom_stable_status_25mev": {
+      "Fragile": 35972,
+      "Certified_Robust_Stable": 80905
+    },
+    "nom_stable_status_50mev": {
+      "Fragile": 51286,
+      "Certified_Robust_Stable": 65591
+    },
+    "nom_stable_status_hetero": {
+      "Fragile": 43072,
+      "Certified_Robust_Stable": 73805
+    },
+    "nom_stable_eps_unif_mev_quantiles": {
+      "p10": 1.65,
+      "p25": 16.506490384615383,
+      "p50": 65.82916666666667,
+      "p75": 184.47916666666666,
+      "p90": 409.80800000000016
+    },
+    "phase_switching": {
+      "nom_stable_count": 2750,
+      "nom_stable_pct": 2.3529009129255543,
+      "nom_stable_critical_robust_to_fragile_flips": 14,
+      "nom_stable_overest_median_pct": 1.5031700301426998,
+      "nom_stable_overest_p90_pct": 7.535976007244841,
+      "nom_stable_overest_max_pct": 32.28544320954188,
+      "nom_unstable_count": 0,
+      "nom_unstable_pct": 0.0,
+      "top_stable_examples": [
+        {
+          "id": "442574122c",
+          "formula": "Dy8Ga16Hf4Sc8",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 184.587,
+          "naive_scale": 3.1523,
+          "true_critical_scale": 2.383,
+          "overestimation_pct": 32.29,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Dy",
+            "ELEM_REF_Hf",
+            "e3923bbc71"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Dy",
+            "ELEM_REF_Ga",
+            "ELEM_REF_Hf",
+            "d77fadbc0e"
+          ]
+        },
+        {
+          "id": "e053a580a6",
+          "formula": "Ga1Ir1Tb4Tc6",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 113.171,
+          "naive_scale": 1.7355,
+          "true_critical_scale": 1.3291,
+          "overestimation_pct": 30.58,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Tb",
+            "ELEM_REF_Tc",
+            "cd6582fe9f"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Ir",
+            "ELEM_REF_Tb",
+            "c899609416",
+            "cd6582fe9f"
+          ]
+        },
+        {
+          "id": "039a79d718",
+          "formula": "Bi1Fe4Ir1Tm12",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 129.367,
+          "naive_scale": 2.0607,
+          "true_critical_scale": 1.5899,
+          "overestimation_pct": 29.61,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "4a110c9105",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Ir",
+            "ELEM_REF_Tm"
+          ],
+          "adv_decomp": [
+            "4499791044",
+            "4a110c9105",
+            "ELEM_REF_Ir",
+            "ELEM_REF_Tm"
+          ]
+        },
+        {
+          "id": "72773bc06a",
+          "formula": "Ag6Lu18Ru2Y2",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 168.996,
+          "naive_scale": 2.7148,
+          "true_critical_scale": 2.1239,
+          "overestimation_pct": 27.82,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "1e2098ae62",
+            "972dd2e2c3",
+            "ELEM_REF_Ag",
+            "ELEM_REF_Lu"
+          ],
+          "adv_decomp": [
+            "1e2098ae62",
+            "972dd2e2c3",
+            "ELEM_REF_Ag",
+            "f0142bac95"
+          ]
+        },
+        {
+          "id": "6f730d370c",
+          "formula": "Ir4Si6Ti6W2",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 296.733,
+          "naive_scale": 6.1393,
+          "true_critical_scale": 4.8474,
+          "overestimation_pct": 26.65,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Ir",
+            "ELEM_REF_Si",
+            "ELEM_REF_W",
+            "db0fa28d61"
+          ],
+          "adv_decomp": [
+            "7d26dea279",
+            "ELEM_REF_Ir",
+            "bf3c8c45c7"
+          ]
+        },
+        {
+          "id": "a0481cf103",
+          "formula": "Os1Sc3Si2Sm3",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 118.548,
+          "naive_scale": 2.0584,
+          "true_critical_scale": 1.6306,
+          "overestimation_pct": 26.24,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "0c70f974fa",
+            "ELEM_REF_Os",
+            "ELEM_REF_Sc",
+            "ELEM_REF_Sm"
+          ],
+          "adv_decomp": [
+            "209c681e38",
+            "ELEM_REF_Os",
+            "ELEM_REF_Sc",
+            "ELEM_REF_Sm"
+          ]
+        },
+        {
+          "id": "c298ac46cb",
+          "formula": "B8Hf4Mo3Ru7",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 244.14,
+          "naive_scale": 5.0338,
+          "true_critical_scale": 4.0185,
+          "overestimation_pct": 25.27,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_B",
+            "ELEM_REF_Hf",
+            "ELEM_REF_Mo",
+            "efff315d4e"
+          ],
+          "adv_decomp": [
+            "87e0d563a7",
+            "ELEM_REF_B",
+            "ELEM_REF_Hf",
+            "ELEM_REF_Mo"
+          ]
+        },
+        {
+          "id": "88ff8cae3e",
+          "formula": "Co18Ge2Si8Y8",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 235.648,
+          "naive_scale": 4.4581,
+          "true_critical_scale": 3.5666,
+          "overestimation_pct": 24.99,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "51dff782cb",
+            "ELEM_REF_Co",
+            "ELEM_REF_Ge",
+            "d21bb3832b"
+          ],
+          "adv_decomp": [
+            "02a5273d81",
+            "51dff782cb",
+            "ELEM_REF_Co",
+            "ELEM_REF_Ge"
+          ]
+        },
+        {
+          "id": "f7857b1f38",
+          "formula": "Al24Ce6Os4Ru4",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 204.874,
+          "naive_scale": 3.4601,
+          "true_critical_scale": 2.774,
+          "overestimation_pct": 24.73,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "3992635b29",
+            "ELEM_REF_Ce",
+            "add322f0df"
+          ],
+          "adv_decomp": [
+            "1e353e38f8",
+            "ELEM_REF_Al",
+            "ELEM_REF_Ce",
+            "ELEM_REF_Ru"
+          ]
+        },
+        {
+          "id": "be3ffb208d",
+          "formula": "Sn6Tb1Y1Zr8",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 10.641,
+          "naive_scale": 0.161,
+          "true_critical_scale": 0.1297,
+          "overestimation_pct": 24.15,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "11eed17bd4",
+            "2bb9f3848a",
+            "889cf62a47",
+            "ELEM_REF_Zr"
+          ],
+          "adv_decomp": [
+            "11eed17bd4",
+            "3bf4c638ae",
+            "62abd5bfea",
+            "ELEM_REF_Zr"
+          ]
+        },
+        {
+          "id": "a8305292ce",
+          "formula": "Fe6Ga1Nb4Si1",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 194.978,
+          "naive_scale": 4.2031,
+          "true_critical_scale": 3.427,
+          "overestimation_pct": 22.65,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "84dd9b08b6",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Nb",
+            "ELEM_REF_Si"
+          ],
+          "adv_decomp": [
+            "08c4f3e79f",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Nb",
+            "ELEM_REF_Si"
+          ]
+        },
+        {
+          "id": "958539d72e",
+          "formula": "Eu2Os1Pt3Si4",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 435.34,
+          "naive_scale": 7.3786,
+          "true_critical_scale": 6.0186,
+          "overestimation_pct": 22.6,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Eu",
+            "d433f5fd91"
+          ],
+          "adv_decomp": [
+            "3172833b69",
+            "ELEM_REF_Eu",
+            "ELEM_REF_Os",
+            "ELEM_REF_Si"
+          ]
+        },
+        {
+          "id": "8ade4bb70f",
+          "formula": "Er3Pb2Pd4Y1",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 418.385,
+          "naive_scale": 6.7778,
+          "true_critical_scale": 5.5317,
+          "overestimation_pct": 22.53,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "37448c9be5",
+            "66524c0b57",
+            "ELEM_REF_Er",
+            "ELEM_REF_Pb"
+          ],
+          "adv_decomp": [
+            "66524c0b57",
+            "ELEM_REF_Er",
+            "ELEM_REF_Pb",
+            "b02c61dac0"
+          ]
+        },
+        {
+          "id": "611c40e73a",
+          "formula": "As12Co18Li2Y4",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 217.75,
+          "naive_scale": 4.4288,
+          "true_critical_scale": 3.6161,
+          "overestimation_pct": 22.48,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "1eb65de549",
+            "ELEM_REF_As",
+            "ELEM_REF_Co"
+          ],
+          "adv_decomp": [
+            "02a5273d81",
+            "9a5f2adf5f",
+            "ELEM_REF_As",
+            "ELEM_REF_Co"
+          ]
+        },
+        {
+          "id": "82d6bd825d",
+          "formula": "Pr8Sc11Si16Tc1",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 69.505,
+          "naive_scale": 0.9667,
+          "true_critical_scale": 0.7958,
+          "overestimation_pct": 21.48,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "0d52e83853",
+            "ELEM_REF_Si",
+            "de0ec05dd3",
+            "fa59298270"
+          ],
+          "adv_decomp": [
+            "83d97ec394",
+            "ELEM_REF_Si",
+            "a502973182",
+            "fa59298270"
+          ]
+        }
+      ]
+    },
+    "by_chemistry_class": {
+      "chalcogenide_pnictide": {
+        "total": 7065,
+        "nom_stable": 7061,
+        "nom_stable_fragile_25mev": 1695,
+        "nom_stable_fragile_25mev_pct": 24.005098427984706,
+        "nom_stable_fragile_hetero": 1657,
+        "nom_stable_fragile_hetero_pct": 23.466931029599206,
+        "nom_stable_phase_switching": 97
+      },
+      "f_block_non_oxide": {
+        "total": 70950,
+        "nom_stable": 70808,
+        "nom_stable_fragile_25mev": 24813,
+        "nom_stable_fragile_25mev_pct": 35.04265054796068,
+        "nom_stable_fragile_hetero": 31833,
+        "nom_stable_fragile_hetero_pct": 44.95678454411931,
+        "nom_stable_phase_switching": 1832
+      },
+      "f_block_oxide_fluoride": {
+        "total": 6662,
+        "nom_stable": 6651,
+        "nom_stable_fragile_25mev": 1053,
+        "nom_stable_fragile_25mev_pct": 15.832205683355886,
+        "nom_stable_fragile_hetero": 1399,
+        "nom_stable_fragile_hetero_pct": 21.034430912644716,
+        "nom_stable_phase_switching": 102
+      },
+      "ggau_oxide_fluoride": {
+        "total": 2145,
+        "nom_stable": 2145,
+        "nom_stable_fragile_25mev": 89,
+        "nom_stable_fragile_25mev_pct": 4.1491841491841495,
+        "nom_stable_fragile_hetero": 162,
+        "nom_stable_fragile_hetero_pct": 7.5524475524475525,
+        "nom_stable_phase_switching": 29
+      },
+      "halide_oxide_main": {
+        "total": 4822,
+        "nom_stable": 4822,
+        "nom_stable_fragile_25mev": 398,
+        "nom_stable_fragile_25mev_pct": 8.253836582330983,
+        "nom_stable_fragile_hetero": 458,
+        "nom_stable_fragile_hetero_pct": 9.498133554541685,
+        "nom_stable_phase_switching": 45
+      },
+      "intermetallic": {
+        "total": 12161,
+        "nom_stable": 12154,
+        "nom_stable_fragile_25mev": 3868,
+        "nom_stable_fragile_25mev_pct": 31.824913608688497,
+        "nom_stable_fragile_hetero": 2907,
+        "nom_stable_fragile_hetero_pct": 23.91805167023202,
+        "nom_stable_phase_switching": 124
+      },
+      "tm_non_oxide": {
+        "total": 13238,
+        "nom_stable": 13236,
+        "nom_stable_fragile_25mev": 4056,
+        "nom_stable_fragile_25mev_pct": 30.643699002719856,
+        "nom_stable_fragile_hetero": 4656,
+        "nom_stable_fragile_hetero_pct": 35.17679057116954,
+        "nom_stable_phase_switching": 521
+      }
+    }
+  },
+  "matched_r2scan_intracatalog_summary": {
+    "dataset": "GNoME-Matched-r2SCAN-117k",
+    "elapsed_sec": 120.99,
+    "n_total": 117043,
+    "n_dropped_parse": 0,
+    "n_competed_audited": 117043,
+    "n_uncompeted_elemental": 0,
+    "n_exact_verified": 117043,
+    "exact_verified_pct_of_competed": 100.0,
+    "n_z3_fallback": 81,
+    "z3_fallback_pct": 0.06920533479148688,
+    "n_nom_stable": 111710,
+    "n_nom_unstable": 5333,
+    "n_exact_zero_margin_boundary": 322,
+    "n_near_zero_margin_lt_1mev": 6456,
+    "nom_unstable_same_composition_polymorph": 0,
+    "nom_unstable_cross_composition_decomp": 5333,
+    "index_metadata": {
+      "n_elements": 83,
+      "n_injected_zero_elemental_refs": 83,
+      "injected_elemental_refs_sample": [
+        "ELEM_REF_Ac",
+        "ELEM_REF_Ag",
+        "ELEM_REF_Al",
+        "ELEM_REF_As",
+        "ELEM_REF_Au",
+        "ELEM_REF_B",
+        "ELEM_REF_Ba",
+        "ELEM_REF_Be",
+        "ELEM_REF_Bi",
+        "ELEM_REF_Br",
+        "ELEM_REF_C",
+        "ELEM_REF_Ca",
+        "ELEM_REF_Cd",
+        "ELEM_REF_Ce",
+        "ELEM_REF_Cl",
+        "ELEM_REF_Co",
+        "ELEM_REF_Cr",
+        "ELEM_REF_Cs",
+        "ELEM_REF_Cu",
+        "ELEM_REF_Dy"
+      ],
+      "n_negative_elemental_phases": 0,
+      "negative_elemental_phases_sample": []
+    },
+    "all_status_10mev": {
+      "Certified_Robust_Stable": 92486,
+      "Fragile": 23709,
+      "Certified_Robust_Unstable": 848
+    },
+    "all_status_25mev": {
+      "Certified_Robust_Stable": 80813,
+      "Fragile": 35837,
+      "Certified_Robust_Unstable": 393
+    },
+    "all_status_50mev": {
+      "Fragile": 50357,
+      "Certified_Robust_Stable": 66557,
+      "Certified_Robust_Unstable": 129
+    },
+    "all_status_hetero": {
+      "Fragile": 42619,
+      "Certified_Robust_Stable": 74118,
+      "Certified_Robust_Unstable": 306
+    },
+    "nom_stable_status_10mev": {
+      "Certified_Robust_Stable": 92486,
+      "Fragile": 19224
+    },
+    "nom_stable_status_25mev": {
+      "Certified_Robust_Stable": 80813,
+      "Fragile": 30897
+    },
+    "nom_stable_status_50mev": {
+      "Fragile": 45153,
+      "Certified_Robust_Stable": 66557
+    },
+    "nom_stable_status_hetero": {
+      "Fragile": 37592,
+      "Certified_Robust_Stable": 74118
+    },
+    "nom_stable_eps_unif_mev_quantiles": {
+      "p10": 2.8333333333333335,
+      "p25": 20.829134615384618,
+      "p50": 76.31308876811595,
+      "p75": 206.29833333333335,
+      "p90": 434.8022222222224
+    },
+    "phase_switching": {
+      "nom_stable_count": 3223,
+      "nom_stable_pct": 2.885149046638618,
+      "nom_stable_critical_robust_to_fragile_flips": 17,
+      "nom_stable_overest_median_pct": 1.6708577087668628,
+      "nom_stable_overest_p90_pct": 9.074942244767453,
+      "nom_stable_overest_max_pct": 36.10404444213696,
+      "nom_unstable_count": 71,
+      "nom_unstable_pct": 1.3313332083255203,
+      "top_stable_examples": [
+        {
+          "id": "c4edb0bc30",
+          "formula": "Fe1Sb4U2",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 449.4,
+          "naive_scale": 8.1709,
+          "true_critical_scale": 6.0034,
+          "overestimation_pct": 36.1,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Fe",
+            "ELEM_REF_Sb",
+            "ELEM_REF_U"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Sb",
+            "ELEM_REF_U",
+            "e872422e4f"
+          ]
+        },
+        {
+          "id": "ca9cd55471",
+          "formula": "Co1Fe3Sb12Tb1",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 44.838,
+          "naive_scale": 0.7692,
+          "true_critical_scale": 0.5676,
+          "overestimation_pct": 35.51,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "1fbe854a84",
+            "ELEM_REF_Co",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Sb"
+          ],
+          "adv_decomp": [
+            "1fbe854a84",
+            "ELEM_REF_Co",
+            "ELEM_REF_Sb",
+            "dcbc2d3b3d"
+          ]
+        },
+        {
+          "id": "f0969cb1c4",
+          "formula": "Ag2Eu6Ru1",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 166.0,
+          "naive_scale": 3.0182,
+          "true_critical_scale": 2.2358,
+          "overestimation_pct": 34.99,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Ag",
+            "ELEM_REF_Eu",
+            "ELEM_REF_Ru"
+          ],
+          "adv_decomp": [
+            "58e0c1f26c",
+            "ELEM_REF_Ag",
+            "ELEM_REF_Eu"
+          ]
+        },
+        {
+          "id": "50bf25c616",
+          "formula": "Co3Fe3Th14",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 33.026,
+          "naive_scale": 0.5393,
+          "true_critical_scale": 0.4003,
+          "overestimation_pct": 34.73,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "26324fe0e2",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Th"
+          ],
+          "adv_decomp": [
+            "0ef8c0ae9d",
+            "26324fe0e2",
+            "ELEM_REF_Th"
+          ]
+        },
+        {
+          "id": "cc385353c2",
+          "formula": "Fe4Pa1Tc8",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 20.8,
+          "naive_scale": 0.3782,
+          "true_critical_scale": 0.2809,
+          "overestimation_pct": 34.66,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Fe",
+            "ELEM_REF_Pa",
+            "ELEM_REF_Tc"
+          ],
+          "adv_decomp": [
+            "6ca8b9760a",
+            "ELEM_REF_Pa",
+            "ELEM_REF_Tc"
+          ]
+        },
+        {
+          "id": "8d8ca6809d",
+          "formula": "Fe2Se1Tb2",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 730.3,
+          "naive_scale": 13.2782,
+          "true_critical_scale": 10.0541,
+          "overestimation_pct": 32.07,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Fe",
+            "ELEM_REF_Se",
+            "ELEM_REF_Tb"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Se",
+            "ELEM_REF_Tb",
+            "ee418a2276"
+          ]
+        },
+        {
+          "id": "fa441220ab",
+          "formula": "Fe4Ga1Tb2Zn1",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 227.729,
+          "naive_scale": 3.8418,
+          "true_critical_scale": 2.9092,
+          "overestimation_pct": 32.06,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "932b622432",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Ga",
+            "ELEM_REF_Tb"
+          ],
+          "adv_decomp": [
+            "932b622432",
+            "ELEM_REF_Ga",
+            "ELEM_REF_Tb",
+            "ee418a2276"
+          ]
+        },
+        {
+          "id": "99dfd5c097",
+          "formula": "Cl2Fe4Tb4",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 664.7,
+          "naive_scale": 12.0855,
+          "true_critical_scale": 9.1555,
+          "overestimation_pct": 32.0,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Cl",
+            "ELEM_REF_Fe",
+            "ELEM_REF_Tb"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Cl",
+            "ELEM_REF_Tb",
+            "ee418a2276"
+          ]
+        },
+        {
+          "id": "048e689500",
+          "formula": "Fe2Ge1P1Tb1",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 616.1,
+          "naive_scale": 11.2018,
+          "true_critical_scale": 8.4897,
+          "overestimation_pct": 31.95,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Fe",
+            "ELEM_REF_Ge",
+            "ELEM_REF_P",
+            "ELEM_REF_Tb"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Ge",
+            "ELEM_REF_P",
+            "ELEM_REF_Tb",
+            "ee418a2276"
+          ]
+        },
+        {
+          "id": "19a486b165",
+          "formula": "C2Fe4P2Tb2",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 569.0,
+          "naive_scale": 10.3455,
+          "true_critical_scale": 7.8445,
+          "overestimation_pct": 31.88,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_C",
+            "ELEM_REF_Fe",
+            "ELEM_REF_P",
+            "ELEM_REF_Tb"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_C",
+            "ELEM_REF_P",
+            "ELEM_REF_Tb",
+            "ee418a2276"
+          ]
+        },
+        {
+          "id": "4bff6056b0",
+          "formula": "Br2Eu4Ru4",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 769.4,
+          "naive_scale": 13.9891,
+          "true_critical_scale": 10.6179,
+          "overestimation_pct": 31.75,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Br",
+            "ELEM_REF_Eu",
+            "ELEM_REF_Ru"
+          ],
+          "adv_decomp": [
+            "58e0c1f26c",
+            "ELEM_REF_Br",
+            "ELEM_REF_Ru"
+          ]
+        },
+        {
+          "id": "996b728e96",
+          "formula": "Eu2Ga1Ru2",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 232.7,
+          "naive_scale": 4.2309,
+          "true_critical_scale": 3.2152,
+          "overestimation_pct": 31.59,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Eu",
+            "ELEM_REF_Ga",
+            "ELEM_REF_Ru"
+          ],
+          "adv_decomp": [
+            "58e0c1f26c",
+            "ELEM_REF_Ga",
+            "ELEM_REF_Ru"
+          ]
+        },
+        {
+          "id": "c528855540",
+          "formula": "C4Co8Ge4Mo12",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 164.4,
+          "naive_scale": 3.6533,
+          "true_critical_scale": 2.7901,
+          "overestimation_pct": 30.94,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_C",
+            "ELEM_REF_Co",
+            "ELEM_REF_Ge",
+            "ELEM_REF_Mo"
+          ],
+          "adv_decomp": [
+            "53200ed182",
+            "ELEM_REF_C",
+            "ELEM_REF_Ge",
+            "ELEM_REF_Mo"
+          ]
+        },
+        {
+          "id": "d47eb0f659",
+          "formula": "As4Co8Mo12N4",
+          "chem_class": "tm_non_oxide",
+          "nominal_margin_mev": 262.8,
+          "naive_scale": 5.84,
+          "true_critical_scale": 4.5124,
+          "overestimation_pct": 29.42,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_As",
+            "ELEM_REF_Co",
+            "ELEM_REF_Mo",
+            "ELEM_REF_N"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_As",
+            "ELEM_REF_Mo",
+            "ELEM_REF_N",
+            "c1869d21bb"
+          ]
+        },
+        {
+          "id": "e053a580a6",
+          "formula": "Ga1Ir1Tb4Tc6",
+          "chem_class": "f_block_non_oxide",
+          "nominal_margin_mev": 130.125,
+          "naive_scale": 1.9955,
+          "true_critical_scale": 1.5435,
+          "overestimation_pct": 29.29,
+          "critical_robust_to_fragile_flip": false,
+          "nom_decomp": [
+            "ELEM_REF_Tb",
+            "ELEM_REF_Tc",
+            "cd6582fe9f"
+          ],
+          "adv_decomp": [
+            "ELEM_REF_Ir",
+            "ELEM_REF_Tb",
+            "c899609416",
+            "cd6582fe9f"
+          ]
+        }
+      ]
+    },
+    "by_chemistry_class": {
+      "chalcogenide_pnictide": {
+        "total": 7065,
+        "nom_stable": 6925,
+        "nom_stable_fragile_25mev": 1553,
+        "nom_stable_fragile_25mev_pct": 22.425992779783392,
+        "nom_stable_fragile_hetero": 1520,
+        "nom_stable_fragile_hetero_pct": 21.949458483754512,
+        "nom_stable_phase_switching": 125
+      },
+      "f_block_non_oxide": {
+        "total": 70950,
+        "nom_stable": 67259,
+        "nom_stable_fragile_25mev": 21086,
+        "nom_stable_fragile_25mev_pct": 31.350451240726148,
+        "nom_stable_fragile_hetero": 27672,
+        "nom_stable_fragile_hetero_pct": 41.142449337635114,
+        "nom_stable_phase_switching": 2086
+      },
+      "f_block_oxide_fluoride": {
+        "total": 6662,
+        "nom_stable": 6421,
+        "nom_stable_fragile_25mev": 858,
+        "nom_stable_fragile_25mev_pct": 13.36240460987385,
+        "nom_stable_fragile_hetero": 1204,
+        "nom_stable_fragile_hetero_pct": 18.75097336863417,
+        "nom_stable_phase_switching": 139
+      },
+      "ggau_oxide_fluoride": {
+        "total": 2145,
+        "nom_stable": 2111,
+        "nom_stable_fragile_25mev": 80,
+        "nom_stable_fragile_25mev_pct": 3.7896731406916153,
+        "nom_stable_fragile_hetero": 137,
+        "nom_stable_fragile_hetero_pct": 6.489815253434391,
+        "nom_stable_phase_switching": 58
+      },
+      "halide_oxide_main": {
+        "total": 4822,
+        "nom_stable": 4767,
+        "nom_stable_fragile_25mev": 372,
+        "nom_stable_fragile_25mev_pct": 7.803650094398993,
+        "nom_stable_fragile_hetero": 416,
+        "nom_stable_fragile_hetero_pct": 8.726662471155864,
+        "nom_stable_phase_switching": 61
+      },
+      "intermetallic": {
+        "total": 12161,
+        "nom_stable": 11897,
+        "nom_stable_fragile_25mev": 3453,
+        "nom_stable_fragile_25mev_pct": 29.024123728671093,
+        "nom_stable_fragile_hetero": 2573,
+        "nom_stable_fragile_hetero_pct": 21.627301000252164,
+        "nom_stable_phase_switching": 163
+      },
+      "tm_non_oxide": {
+        "total": 13238,
+        "nom_stable": 12330,
+        "nom_stable_fragile_25mev": 3495,
+        "nom_stable_fragile_25mev_pct": 28.34549878345499,
+        "nom_stable_fragile_hetero": 4070,
+        "nom_stable_fragile_hetero_pct": 33.008921330089215,
+        "nom_stable_phase_switching": 591
+      }
+    }
+  },
+  "matched_117k_exact_hull_validation": {
+    "regime": "exact_charnes_cooper_lp_matched_117k_subhull",
+    "n_pbe_stable_on_matched_hull": 116877,
+    "n_flipped_r2scan_unstable_gt0": 5231,
+    "overall_flip_rate_gt0_pct": 4.476,
+    "n_flipped_r2scan_ehull_gt25mev": 701,
+    "overall_flip_rate_gt25mev_pct": 0.6,
+    "roc_auc_eps_unif_for_flip_gt0": {
+      "auc": 0.8969,
+      "ci95_low": 0.8939,
+      "ci95_high": 0.9001
+    },
+    "roc_auc_hetero_scale_for_flip_gt0": {
+      "auc": 0.8948,
+      "ci95_low": 0.8917,
+      "ci95_high": 0.8978
+    },
+    "roc_auc_eps_unif_for_flip_gt25": {
+      "auc": 0.7178,
+      "ci95_low": 0.7061,
+      "ci95_high": 0.7286
+    },
+    "roc_auc_hetero_scale_for_flip_gt25": {
+      "auc": 0.7084,
+      "ci95_low": 0.6963,
+      "ci95_high": 0.7197
+    },
+    "flip_gt0_by_10mev": {
+      "n_evaluated": 116877,
+      "base_rate_flip_pct": 4.476,
+      "low_risk_count": 93761,
+      "low_risk_share_pct": 80.222,
+      "low_risk_flipped": 1068,
+      "low_risk_flip_rate_pct": 1.139,
+      "high_risk_count": 23116,
+      "high_risk_share_pct": 19.778,
+      "high_risk_flipped": 4163,
+      "high_risk_flip_rate_pct": 18.009,
+      "ppv_pct": 18.009,
+      "npv_pct": 98.861,
+      "recall_of_flips_pct": 79.583,
+      "specificity_pct": 83.024,
+      "relative_risk_high_vs_low": 15.81
+    },
+    "flip_gt0_by_25mev": {
+      "n_evaluated": 116877,
+      "base_rate_flip_pct": 4.476,
+      "low_risk_count": 80905,
+      "low_risk_share_pct": 69.222,
+      "low_risk_flipped": 469,
+      "low_risk_flip_rate_pct": 0.58,
+      "high_risk_count": 35972,
+      "high_risk_share_pct": 30.778,
+      "high_risk_flipped": 4762,
+      "high_risk_flip_rate_pct": 13.238,
+      "ppv_pct": 13.238,
+      "npv_pct": 99.42,
+      "recall_of_flips_pct": 91.034,
+      "specificity_pct": 72.046,
+      "relative_risk_high_vs_low": 22.836
+    },
+    "flip_gt0_by_50mev": {
+      "n_evaluated": 116877,
+      "base_rate_flip_pct": 4.476,
+      "low_risk_count": 65591,
+      "low_risk_share_pct": 56.12,
+      "low_risk_flipped": 171,
+      "low_risk_flip_rate_pct": 0.261,
+      "high_risk_count": 51286,
+      "high_risk_share_pct": 43.88,
+      "high_risk_flipped": 5060,
+      "high_risk_flip_rate_pct": 9.866,
+      "ppv_pct": 9.866,
+      "npv_pct": 99.739,
+      "recall_of_flips_pct": 96.731,
+      "specificity_pct": 58.596,
+      "relative_risk_high_vs_low": 37.844
+    },
+    "flip_gt0_by_hetero": {
+      "n_evaluated": 116877,
+      "base_rate_flip_pct": 4.476,
+      "low_risk_count": 73805,
+      "low_risk_share_pct": 63.148,
+      "low_risk_flipped": 340,
+      "low_risk_flip_rate_pct": 0.461,
+      "high_risk_count": 43072,
+      "high_risk_share_pct": 36.852,
+      "high_risk_flipped": 4891,
+      "high_risk_flip_rate_pct": 11.355,
+      "ppv_pct": 11.355,
+      "npv_pct": 99.539,
+      "recall_of_flips_pct": 93.5,
+      "specificity_pct": 65.802,
+      "relative_risk_high_vs_low": 24.65
+    },
+    "flip_gt25mev_by_25mev": {
+      "n_evaluated": 116877,
+      "base_rate_flip_pct": 0.6,
+      "low_risk_count": 80905,
+      "low_risk_share_pct": 69.222,
+      "low_risk_flipped": 271,
+      "low_risk_flip_rate_pct": 0.335,
+      "high_risk_count": 35972,
+      "high_risk_share_pct": 30.778,
+      "high_risk_flipped": 430,
+      "high_risk_flip_rate_pct": 1.195,
+      "ppv_pct": 1.195,
+      "npv_pct": 99.665,
+      "recall_of_flips_pct": 61.341,
+      "specificity_pct": 69.407,
+      "relative_risk_high_vs_low": 3.569
+    },
+    "flip_gt25mev_by_hetero": {
+      "n_evaluated": 116877,
+      "base_rate_flip_pct": 0.6,
+      "low_risk_count": 73805,
+      "low_risk_share_pct": 63.148,
+      "low_risk_flipped": 211,
+      "low_risk_flip_rate_pct": 0.286,
+      "high_risk_count": 43072,
+      "high_risk_share_pct": 36.852,
+      "high_risk_flipped": 490,
+      "high_risk_flip_rate_pct": 1.138,
+      "ppv_pct": 1.138,
+      "npv_pct": 99.714,
+      "recall_of_flips_pct": 69.9,
+      "specificity_pct": 63.347,
+      "relative_risk_high_vs_low": 3.979
+    },
+    "monotonicity_vs_gnome_de_all": {
+      "n_violations_gt_0_5mev": 0,
+      "max_excess_ehull_minus_de_all_mev": 0.075,
+      "contingency_2x2_vs_de_all": {
+        "cert_stab_de_all_le0": 115882,
+        "cert_stab_de_all_gt0": 995,
+        "cert_unstab_de_all_le0": 154,
+        "cert_unstab_de_all_gt0": 12
+      },
+      "contingency_2x2_vs_de_external": {
+        "cert_stab_de_le0": 116822,
+        "cert_stab_de_gt0": 55,
+        "cert_unstab_de_le0": 166,
+        "cert_unstab_de_gt0": 0
+      }
+    },
+    "phase_switching_flip_analysis": {
+      "switching_count": 2750,
+      "switching_flipped_gt0": 58,
+      "switching_flip_rate_pct": 2.109,
+      "non_switching_count": 114127,
+      "non_switching_flipped_gt0": 5173,
+      "non_switching_flip_rate_pct": 4.533
+    }
+  },
+  "external_proxy_validation_decomp_energy": {
+    "source_column": "Decomposition Energy Per Atom",
+    "is_certified_lp": false,
+    "proxy_formula": "margin / (2 * sigma_class(candidate)) — uncertified proxy approximation (external competitors unavailable in CSV)",
+    "n_pbe_de_le_0": 116988,
+    "n_flipped_r2scan_gt0": 15621,
+    "overall_flip_rate_gt0_pct": 13.353,
+    "n_flipped_r2scan_gt25mev": 4190,
+    "overall_flip_rate_gt25mev_pct": 3.582,
+    "roc_auc_uniform_proxy_flip_gt0": {
+      "auc": 0.7061,
+      "ci95_low": 0.702,
+      "ci95_high": 0.7096
+    },
+    "roc_auc_hetero_proxy_flip_gt0": {
+      "auc": 0.7117,
+      "ci95_low": 0.7076,
+      "ci95_high": 0.7153
+    },
+    "roc_auc_uniform_proxy_flip_gt25": {
+      "auc": 0.5959,
+      "ci95_low": 0.5884,
+      "ci95_high": 0.6039
+    },
+    "roc_auc_hetero_proxy_flip_gt25": {
+      "auc": 0.6172,
+      "ci95_low": 0.6098,
+      "ci95_high": 0.625
+    },
+    "flip_gt0_by_uniform_10mev_proxy": {
+      "n_evaluated": 116988,
+      "base_rate_flip_pct": 13.353,
+      "low_risk_count": 74787,
+      "low_risk_share_pct": 63.927,
+      "low_risk_flipped": 5918,
+      "low_risk_flip_rate_pct": 7.913,
+      "high_risk_count": 42201,
+      "high_risk_share_pct": 36.073,
+      "high_risk_flipped": 9703,
+      "high_risk_flip_rate_pct": 22.992,
+      "ppv_pct": 22.992,
+      "npv_pct": 92.087,
+      "recall_of_flips_pct": 62.115,
+      "specificity_pct": 67.94,
+      "relative_risk_high_vs_low": 2.906
+    },
+    "flip_gt0_by_uniform_25mev_proxy": {
+      "n_evaluated": 116988,
+      "base_rate_flip_pct": 13.353,
+      "low_risk_count": 30973,
+      "low_risk_share_pct": 26.475,
+      "low_risk_flipped": 1345,
+      "low_risk_flip_rate_pct": 4.342,
+      "high_risk_count": 86015,
+      "high_risk_share_pct": 73.525,
+      "high_risk_flipped": 14276,
+      "high_risk_flip_rate_pct": 16.597,
+      "ppv_pct": 16.597,
+      "npv_pct": 95.658,
+      "recall_of_flips_pct": 91.39,
+      "specificity_pct": 29.228,
+      "relative_risk_high_vs_low": 3.822
+    },
+    "flip_gt0_by_uniform_50mev_proxy": {
+      "n_evaluated": 116988,
+      "base_rate_flip_pct": 13.353,
+      "low_risk_count": 8901,
+      "low_risk_share_pct": 7.608,
+      "low_risk_flipped": 291,
+      "low_risk_flip_rate_pct": 3.269,
+      "high_risk_count": 108087,
+      "high_risk_share_pct": 92.392,
+      "high_risk_flipped": 15330,
+      "high_risk_flip_rate_pct": 14.183,
+      "ppv_pct": 14.183,
+      "npv_pct": 96.731,
+      "recall_of_flips_pct": 98.137,
+      "specificity_pct": 8.494,
+      "relative_risk_high_vs_low": 4.338
+    },
+    "flip_gt0_by_hetero_proxy": {
+      "n_evaluated": 116988,
+      "base_rate_flip_pct": 13.353,
+      "low_risk_count": 18742,
+      "low_risk_share_pct": 16.02,
+      "low_risk_flipped": 563,
+      "low_risk_flip_rate_pct": 3.004,
+      "high_risk_count": 98246,
+      "high_risk_share_pct": 83.98,
+      "high_risk_flipped": 15058,
+      "high_risk_flip_rate_pct": 15.327,
+      "ppv_pct": 15.327,
+      "npv_pct": 96.996,
+      "recall_of_flips_pct": 96.396,
+      "specificity_pct": 17.934,
+      "relative_risk_high_vs_low": 5.102
+    },
+    "flip_gt25mev_by_uniform_25mev_proxy": {
+      "n_evaluated": 116988,
+      "base_rate_flip_pct": 3.582,
+      "low_risk_count": 30973,
+      "low_risk_share_pct": 26.475,
+      "low_risk_flipped": 627,
+      "low_risk_flip_rate_pct": 2.024,
+      "high_risk_count": 86015,
+      "high_risk_share_pct": 73.525,
+      "high_risk_flipped": 3563,
+      "high_risk_flip_rate_pct": 4.142,
+      "ppv_pct": 4.142,
+      "npv_pct": 97.976,
+      "recall_of_flips_pct": 85.036,
+      "specificity_pct": 26.903,
+      "relative_risk_high_vs_low": 2.046
+    },
+    "flip_gt25mev_by_hetero_proxy": {
+      "n_evaluated": 116988,
+      "base_rate_flip_pct": 3.582,
+      "low_risk_count": 18742,
+      "low_risk_share_pct": 16.02,
+      "low_risk_flipped": 266,
+      "low_risk_flip_rate_pct": 1.419,
+      "high_risk_count": 98246,
+      "high_risk_share_pct": 83.98,
+      "high_risk_flipped": 3924,
+      "high_risk_flip_rate_pct": 3.994,
+      "ppv_pct": 3.994,
+      "npv_pct": 98.581,
+      "recall_of_flips_pct": 93.652,
+      "specificity_pct": 16.38,
+      "relative_risk_high_vs_low": 2.814
+    },
+    "by_chemistry_class": {
+      "chalcogenide_pnictide": {
+        "n_pbe_stable": 7059,
+        "flipped_gt0": 514,
+        "flip_rate_gt0_pct": 7.281,
+        "flipped_gt25": 61,
+        "flip_rate_gt25_pct": 0.864,
+        "proxy_high_risk_25mev_pct": 68.381,
+        "proxy_high_risk_hetero_pct": 68.381
+      },
+      "f_block_non_oxide": {
+        "n_pbe_stable": 70913,
+        "flipped_gt0": 8253,
+        "flip_rate_gt0_pct": 11.638,
+        "flipped_gt25": 1841,
+        "flip_rate_gt25_pct": 2.596,
+        "proxy_high_risk_25mev_pct": 72.923,
+        "proxy_high_risk_hetero_pct": 89.384
+      },
+      "f_block_oxide_fluoride": {
+        "n_pbe_stable": 6658,
+        "flipped_gt0": 1147,
+        "flip_rate_gt0_pct": 17.227,
+        "flipped_gt25": 330,
+        "flip_rate_gt25_pct": 4.956,
+        "proxy_high_risk_25mev_pct": 69.345,
+        "proxy_high_risk_hetero_pct": 88.66
+      },
+      "ggau_oxide_fluoride": {
+        "n_pbe_stable": 2144,
+        "flipped_gt0": 838,
+        "flip_rate_gt0_pct": 39.086,
+        "flipped_gt25": 392,
+        "flip_rate_gt25_pct": 18.284,
+        "proxy_high_risk_25mev_pct": 83.022,
+        "proxy_high_risk_hetero_pct": 95.989
+      },
+      "halide_oxide_main": {
+        "n_pbe_stable": 4821,
+        "flipped_gt0": 775,
+        "flip_rate_gt0_pct": 16.076,
+        "flipped_gt25": 184,
+        "flip_rate_gt25_pct": 3.817,
+        "proxy_high_risk_25mev_pct": 64.966,
+        "proxy_high_risk_hetero_pct": 73.014
+      },
+      "intermetallic": {
+        "n_pbe_stable": 12157,
+        "flipped_gt0": 870,
+        "flip_rate_gt0_pct": 7.156,
+        "flipped_gt25": 37,
+        "flip_rate_gt25_pct": 0.304,
+        "proxy_high_risk_25mev_pct": 76.483,
+        "proxy_high_risk_hetero_pct": 53.5
+      },
+      "tm_non_oxide": {
+        "n_pbe_stable": 13236,
+        "flipped_gt0": 3224,
+        "flip_rate_gt0_pct": 24.358,
+        "flipped_gt25": 1345,
+        "flip_rate_gt25_pct": 10.162,
+        "proxy_high_risk_25mev_pct": 80.455,
+        "proxy_high_risk_hetero_pct": 91.032
+      }
+    }
+  },
+  "external_proxy_validation_mp": {
+    "source_column": "Decomposition Energy Per Atom MP",
+    "is_certified_lp": false,
+    "proxy_formula": "margin / (2 * sigma_class(candidate)) — uncertified proxy approximation (external competitors unavailable in CSV)",
+    "n_pbe_de_le_0": 117018,
+    "n_flipped_r2scan_gt0": 15629,
+    "overall_flip_rate_gt0_pct": 13.356,
+    "n_flipped_r2scan_gt25mev": 4191,
+    "overall_flip_rate_gt25mev_pct": 3.582,
+    "roc_auc_uniform_proxy_flip_gt0": {
+      "auc": 0.7112,
+      "ci95_low": 0.7069,
+      "ci95_high": 0.7153
+    },
+    "roc_auc_hetero_proxy_flip_gt0": {
+      "auc": 0.7157,
+      "ci95_low": 0.7119,
+      "ci95_high": 0.7197
+    },
+    "roc_auc_uniform_proxy_flip_gt25": {
+      "auc": 0.5962,
+      "ci95_low": 0.5887,
+      "ci95_high": 0.6049
+    },
+    "roc_auc_hetero_proxy_flip_gt25": {
+      "auc": 0.617,
+      "ci95_low": 0.61,
+      "ci95_high": 0.6257
+    },
+    "flip_gt0_by_uniform_10mev_proxy": {
+      "n_evaluated": 117018,
+      "base_rate_flip_pct": 13.356,
+      "low_risk_count": 70642,
+      "low_risk_share_pct": 60.368,
+      "low_risk_flipped": 5207,
+      "low_risk_flip_rate_pct": 7.371,
+      "high_risk_count": 46376,
+      "high_risk_share_pct": 39.632,
+      "high_risk_flipped": 10422,
+      "high_risk_flip_rate_pct": 22.473,
+      "ppv_pct": 22.473,
+      "npv_pct": 92.629,
+      "recall_of_flips_pct": 66.684,
+      "specificity_pct": 64.539,
+      "relative_risk_high_vs_low": 3.049
+    },
+    "flip_gt0_by_uniform_25mev_proxy": {
+      "n_evaluated": 117018,
+      "base_rate_flip_pct": 13.356,
+      "low_risk_count": 27255,
+      "low_risk_share_pct": 23.291,
+      "low_risk_flipped": 1062,
+      "low_risk_flip_rate_pct": 3.897,
+      "high_risk_count": 89763,
+      "high_risk_share_pct": 76.709,
+      "high_risk_flipped": 14567,
+      "high_risk_flip_rate_pct": 16.228,
+      "ppv_pct": 16.228,
+      "npv_pct": 96.103,
+      "recall_of_flips_pct": 93.205,
+      "specificity_pct": 25.834,
+      "relative_risk_high_vs_low": 4.165
+    },
+    "flip_gt0_by_uniform_50mev_proxy": {
+      "n_evaluated": 117018,
+      "base_rate_flip_pct": 13.356,
+      "low_risk_count": 7529,
+      "low_risk_share_pct": 6.434,
+      "low_risk_flipped": 214,
+      "low_risk_flip_rate_pct": 2.842,
+      "high_risk_count": 109489,
+      "high_risk_share_pct": 93.566,
+      "high_risk_flipped": 15415,
+      "high_risk_flip_rate_pct": 14.079,
+      "ppv_pct": 14.079,
+      "npv_pct": 97.158,
+      "recall_of_flips_pct": 98.631,
+      "specificity_pct": 7.215,
+      "relative_risk_high_vs_low": 4.953
+    },
+    "flip_gt0_by_hetero_proxy": {
+      "n_evaluated": 117018,
+      "base_rate_flip_pct": 13.356,
+      "low_risk_count": 16279,
+      "low_risk_share_pct": 13.912,
+      "low_risk_flipped": 397,
+      "low_risk_flip_rate_pct": 2.439,
+      "high_risk_count": 100739,
+      "high_risk_share_pct": 86.088,
+      "high_risk_flipped": 15232,
+      "high_risk_flip_rate_pct": 15.12,
+      "ppv_pct": 15.12,
+      "npv_pct": 97.561,
+      "recall_of_flips_pct": 97.46,
+      "specificity_pct": 15.664,
+      "relative_risk_high_vs_low": 6.2
+    },
+    "flip_gt25mev_by_uniform_25mev_proxy": {
+      "n_evaluated": 117018,
+      "base_rate_flip_pct": 3.582,
+      "low_risk_count": 27255,
+      "low_risk_share_pct": 23.291,
+      "low_risk_flipped": 553,
+      "low_risk_flip_rate_pct": 2.029,
+      "high_risk_count": 89763,
+      "high_risk_share_pct": 76.709,
+      "high_risk_flipped": 3638,
+      "high_risk_flip_rate_pct": 4.053,
+      "ppv_pct": 4.053,
+      "npv_pct": 97.971,
+      "recall_of_flips_pct": 86.805,
+      "specificity_pct": 23.666,
+      "relative_risk_high_vs_low": 1.997
+    },
+    "flip_gt25mev_by_hetero_proxy": {
+      "n_evaluated": 117018,
+      "base_rate_flip_pct": 3.582,
+      "low_risk_count": 16279,
+      "low_risk_share_pct": 13.912,
+      "low_risk_flipped": 214,
+      "low_risk_flip_rate_pct": 1.315,
+      "high_risk_count": 100739,
+      "high_risk_share_pct": 86.088,
+      "high_risk_flipped": 3977,
+      "high_risk_flip_rate_pct": 3.948,
+      "ppv_pct": 3.948,
+      "npv_pct": 98.685,
+      "recall_of_flips_pct": 94.894,
+      "specificity_pct": 14.239,
+      "relative_risk_high_vs_low": 3.003
+    },
+    "by_chemistry_class": {
+      "chalcogenide_pnictide": {
+        "n_pbe_stable": 7063,
+        "flipped_gt0": 515,
+        "flip_rate_gt0_pct": 7.292,
+        "flipped_gt25": 61,
+        "flip_rate_gt25_pct": 0.864,
+        "proxy_high_risk_25mev_pct": 71.754,
+        "proxy_high_risk_hetero_pct": 71.754
+      },
+      "f_block_non_oxide": {
+        "n_pbe_stable": 70931,
+        "flipped_gt0": 8258,
+        "flip_rate_gt0_pct": 11.642,
+        "flipped_gt25": 1841,
+        "flip_rate_gt25_pct": 2.595,
+        "proxy_high_risk_25mev_pct": 76.15,
+        "proxy_high_risk_hetero_pct": 91.206
+      },
+      "f_block_oxide_fluoride": {
+        "n_pbe_stable": 6662,
+        "flipped_gt0": 1147,
+        "flip_rate_gt0_pct": 17.217,
+        "flipped_gt25": 330,
+        "flip_rate_gt25_pct": 4.953,
+        "proxy_high_risk_25mev_pct": 71.78,
+        "proxy_high_risk_hetero_pct": 89.267
+      },
+      "ggau_oxide_fluoride": {
+        "n_pbe_stable": 2145,
+        "flipped_gt0": 839,
+        "flip_rate_gt0_pct": 39.114,
+        "flipped_gt25": 392,
+        "flip_rate_gt25_pct": 18.275,
+        "proxy_high_risk_25mev_pct": 84.429,
+        "proxy_high_risk_hetero_pct": 96.457
+      },
+      "halide_oxide_main": {
+        "n_pbe_stable": 4822,
+        "flipped_gt0": 775,
+        "flip_rate_gt0_pct": 16.072,
+        "flipped_gt25": 184,
+        "flip_rate_gt25_pct": 3.816,
+        "proxy_high_risk_25mev_pct": 73.579,
+        "proxy_high_risk_hetero_pct": 80.153
+      },
+      "intermetallic": {
+        "n_pbe_stable": 12159,
+        "flipped_gt0": 871,
+        "flip_rate_gt0_pct": 7.163,
+        "flipped_gt25": 37,
+        "flip_rate_gt25_pct": 0.304,
+        "proxy_high_risk_25mev_pct": 79.349,
+        "proxy_high_risk_hetero_pct": 56.781
+      },
+      "tm_non_oxide": {
+        "n_pbe_stable": 13236,
+        "flipped_gt0": 3224,
+        "flip_rate_gt0_pct": 24.358,
+        "flipped_gt25": 1346,
+        "flip_rate_gt25_pct": 10.169,
+        "proxy_high_risk_25mev_pct": 82.291,
+        "proxy_high_risk_hetero_pct": 92.12
+      }
+    }
+  },
+  "external_proxy_validation_mp_oqmd": {
+    "source_column": "Decomposition Energy Per Atom MP OQMD",
+    "is_certified_lp": false,
+    "proxy_formula": "margin / (2 * sigma_class(candidate)) — uncertified proxy approximation (external competitors unavailable in CSV)",
+    "n_pbe_de_le_0": 116982,
+    "n_flipped_r2scan_gt0": 18938,
+    "overall_flip_rate_gt0_pct": 16.189,
+    "n_flipped_r2scan_gt25mev": 4624,
+    "overall_flip_rate_gt25mev_pct": 3.953,
+    "roc_auc_uniform_proxy_flip_gt0": {
+      "auc": 0.6997,
+      "ci95_low": 0.6954,
+      "ci95_high": 0.7036
+    },
+    "roc_auc_hetero_proxy_flip_gt0": {
+      "auc": 0.7044,
+      "ci95_low": 0.7003,
+      "ci95_high": 0.7079
+    },
+    "roc_auc_uniform_proxy_flip_gt25": {
+      "auc": 0.5803,
+      "ci95_low": 0.5715,
+      "ci95_high": 0.5869
+    },
+    "roc_auc_hetero_proxy_flip_gt25": {
+      "auc": 0.5996,
+      "ci95_low": 0.5916,
+      "ci95_high": 0.6059
+    },
+    "flip_gt0_by_uniform_10mev_proxy": {
+      "n_evaluated": 116982,
+      "base_rate_flip_pct": 16.189,
+      "low_risk_count": 52469,
+      "low_risk_share_pct": 44.852,
+      "low_risk_flipped": 4042,
+      "low_risk_flip_rate_pct": 7.704,
+      "high_risk_count": 64513,
+      "high_risk_share_pct": 55.148,
+      "high_risk_flipped": 14896,
+      "high_risk_flip_rate_pct": 23.09,
+      "ppv_pct": 23.09,
+      "npv_pct": 92.296,
+      "recall_of_flips_pct": 78.657,
+      "specificity_pct": 49.393,
+      "relative_risk_high_vs_low": 2.997
+    },
+    "flip_gt0_by_uniform_25mev_proxy": {
+      "n_evaluated": 116982,
+      "base_rate_flip_pct": 16.189,
+      "low_risk_count": 15233,
+      "low_risk_share_pct": 13.022,
+      "low_risk_flipped": 667,
+      "low_risk_flip_rate_pct": 4.379,
+      "high_risk_count": 101749,
+      "high_risk_share_pct": 86.978,
+      "high_risk_flipped": 18271,
+      "high_risk_flip_rate_pct": 17.957,
+      "ppv_pct": 17.957,
+      "npv_pct": 95.621,
+      "recall_of_flips_pct": 96.478,
+      "specificity_pct": 14.857,
+      "relative_risk_high_vs_low": 4.101
+    },
+    "flip_gt0_by_uniform_50mev_proxy": {
+      "n_evaluated": 116982,
+      "base_rate_flip_pct": 16.189,
+      "low_risk_count": 3676,
+      "low_risk_share_pct": 3.142,
+      "low_risk_flipped": 150,
+      "low_risk_flip_rate_pct": 4.081,
+      "high_risk_count": 113306,
+      "high_risk_share_pct": 96.858,
+      "high_risk_flipped": 18788,
+      "high_risk_flip_rate_pct": 16.582,
+      "ppv_pct": 16.582,
+      "npv_pct": 95.919,
+      "recall_of_flips_pct": 99.208,
+      "specificity_pct": 3.596,
+      "relative_risk_high_vs_low": 4.064
+    },
+    "flip_gt0_by_hetero_proxy": {
+      "n_evaluated": 116982,
+      "base_rate_flip_pct": 16.189,
+      "low_risk_count": 8694,
+      "low_risk_share_pct": 7.432,
+      "low_risk_flipped": 264,
+      "low_risk_flip_rate_pct": 3.037,
+      "high_risk_count": 108288,
+      "high_risk_share_pct": 92.568,
+      "high_risk_flipped": 18674,
+      "high_risk_flip_rate_pct": 17.245,
+      "ppv_pct": 17.245,
+      "npv_pct": 96.963,
+      "recall_of_flips_pct": 98.606,
+      "specificity_pct": 8.598,
+      "relative_risk_high_vs_low": 5.679
+    },
+    "flip_gt25mev_by_uniform_25mev_proxy": {
+      "n_evaluated": 116982,
+      "base_rate_flip_pct": 3.953,
+      "low_risk_count": 15233,
+      "low_risk_share_pct": 13.022,
+      "low_risk_flipped": 356,
+      "low_risk_flip_rate_pct": 2.337,
+      "high_risk_count": 101749,
+      "high_risk_share_pct": 86.978,
+      "high_risk_flipped": 4268,
+      "high_risk_flip_rate_pct": 4.195,
+      "ppv_pct": 4.195,
+      "npv_pct": 97.663,
+      "recall_of_flips_pct": 92.301,
+      "specificity_pct": 13.241,
+      "relative_risk_high_vs_low": 1.795
+    },
+    "flip_gt25mev_by_hetero_proxy": {
+      "n_evaluated": 116982,
+      "base_rate_flip_pct": 3.953,
+      "low_risk_count": 8694,
+      "low_risk_share_pct": 7.432,
+      "low_risk_flipped": 155,
+      "low_risk_flip_rate_pct": 1.783,
+      "high_risk_count": 108288,
+      "high_risk_share_pct": 92.568,
+      "high_risk_flipped": 4469,
+      "high_risk_flip_rate_pct": 4.127,
+      "ppv_pct": 4.127,
+      "npv_pct": 98.217,
+      "recall_of_flips_pct": 96.648,
+      "specificity_pct": 7.6,
+      "relative_risk_high_vs_low": 2.315
+    },
+    "by_chemistry_class": {
+      "chalcogenide_pnictide": {
+        "n_pbe_stable": 7059,
+        "flipped_gt0": 641,
+        "flip_rate_gt0_pct": 9.081,
+        "flipped_gt25": 71,
+        "flip_rate_gt25_pct": 1.006,
+        "proxy_high_risk_25mev_pct": 84.899,
+        "proxy_high_risk_hetero_pct": 84.899
+      },
+      "f_block_non_oxide": {
+        "n_pbe_stable": 70910,
+        "flipped_gt0": 10351,
+        "flip_rate_gt0_pct": 14.597,
+        "flipped_gt25": 2065,
+        "flip_rate_gt25_pct": 2.912,
+        "proxy_high_risk_25mev_pct": 86.651,
+        "proxy_high_risk_hetero_pct": 95.649
+      },
+      "f_block_oxide_fluoride": {
+        "n_pbe_stable": 6661,
+        "flipped_gt0": 1267,
+        "flip_rate_gt0_pct": 19.021,
+        "flipped_gt25": 368,
+        "flip_rate_gt25_pct": 5.525,
+        "proxy_high_risk_25mev_pct": 80.273,
+        "proxy_high_risk_hetero_pct": 92.809
+      },
+      "ggau_oxide_fluoride": {
+        "n_pbe_stable": 2143,
+        "flipped_gt0": 875,
+        "flip_rate_gt0_pct": 40.831,
+        "flipped_gt25": 406,
+        "flip_rate_gt25_pct": 18.945,
+        "proxy_high_risk_25mev_pct": 90.714,
+        "proxy_high_risk_hetero_pct": 98.273
+      },
+      "halide_oxide_main": {
+        "n_pbe_stable": 4821,
+        "flipped_gt0": 909,
+        "flip_rate_gt0_pct": 18.855,
+        "flipped_gt25": 197,
+        "flip_rate_gt25_pct": 4.086,
+        "proxy_high_risk_25mev_pct": 85.356,
+        "proxy_high_risk_hetero_pct": 90.23
+      },
+      "intermetallic": {
+        "n_pbe_stable": 12155,
+        "flipped_gt0": 1188,
+        "flip_rate_gt0_pct": 9.774,
+        "flipped_gt25": 51,
+        "flip_rate_gt25_pct": 0.42,
+        "proxy_high_risk_25mev_pct": 90.218,
+        "proxy_high_risk_hetero_pct": 74.842
+      },
+      "tm_non_oxide": {
+        "n_pbe_stable": 13233,
+        "flipped_gt0": 3707,
+        "flip_rate_gt0_pct": 28.013,
+        "flipped_gt25": 1466,
+        "flip_rate_gt25_pct": 11.078,
+        "proxy_high_risk_25mev_pct": 90.229,
+        "proxy_high_risk_hetero_pct": 96.237
+      }
+    }
+  },
+  "certificate_verification": {
+    "matched_pbe": {
+      "tsv_file": "certs_gnome_matched_sample.tsv",
+      "tsv_sha256": "8e4ef246bd5dc3ebdf2392fafafdc30f15ec3efd826c8dc11374c918cf1f1f4c",
+      "written": 5000,
+      "independent_exact_check": {
+        "tsv_path": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\certmat\\results\\certs_gnome_matched_sample.tsv",
+        "total": 5000,
+        "passed": 5000,
+        "failed": 0,
+        "by_kind": {
+          "INTERVAL_FRAGILE_DESTAB": 1805,
+          "INTERVAL_STABLE": 3189,
+          "INTERVAL_FRAGILE_STAB": 6
+        },
+        "all_passed": true
+      },
+      "lean_binary_check": {
+        "lean_available": true,
+        "lean_built": true,
+        "binary": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\certmat\\lean\\.lake\\build\\bin\\certmat-check.exe",
+        "returncode": 0,
+        "total": 5000,
+        "passed": 5000,
+        "failed": 0,
+        "stdout": "certmat-check: total=5000 passed=5000 failed=0",
+        "stderr": "",
+        "all_passed": true
+      }
+    },
+    "matched_r2scan": {
+      "tsv_file": "certs_gnome_matched_r2scan_sample.tsv",
+      "tsv_sha256": "992349fd45e372a181bb6611f4fff922b97b8bca0f1ebc351a8810046ec9e0f3",
+      "written": 5000,
+      "independent_exact_check": {
+        "tsv_path": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\certmat\\results\\certs_gnome_matched_r2scan_sample.tsv",
+        "total": 5000,
+        "passed": 5000,
+        "failed": 0,
+        "by_kind": {
+          "INTERVAL_FRAGILE_DESTAB": 1574,
+          "INTERVAL_STABLE": 3201,
+          "INTERVAL_FRAGILE_STAB": 210,
+          "INTERVAL_UNSTABLE": 15
+        },
+        "all_passed": true
+      },
+      "lean_binary_check": {
+        "lean_available": true,
+        "lean_built": true,
+        "binary": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\certmat\\lean\\.lake\\build\\bin\\certmat-check.exe",
+        "returncode": 0,
+        "total": 5000,
+        "passed": 5000,
+        "failed": 0,
+        "stdout": "certmat-check: total=5000 passed=5000 failed=0",
+        "stderr": "",
+        "all_passed": true
+      }
+    }
+  }
+}

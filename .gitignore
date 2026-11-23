@@ -1,0 +1,26 @@
+# Python 환경 및 캐시
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# 대용량 원본 데이터셋 (reproduce_all.py 또는 scripts/download_datasets.py로 SHA-256 검증 하에 자동 다운로드)
+data/*.csv
+data/*.csv.gz
+data/*.json
+data/*.zip
+data/*.part
+!data/dataset_manifest.json
+
+# 로컬 Lean 4 툴체인 및 Lake 빌드 산출물 (lean/ 내에서 lake build로 재현 가능)
+.tools/
+lean/.lake/
+
+# 빌드/배포 임시 파일 및 번들
+paper/certmat_overleaf_bundle.zip
+paper/.issue_body.md
+*.part
+.DS_Store
+Thumbs.db

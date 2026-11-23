@@ -1,0 +1,26 @@
+{
+  "gnome_pbe": {
+    "file": "gnome_stable_materials_summary.csv",
+    "url": "https://storage.googleapis.com/gdm_materials_discovery/gnome_data/stable_materials_summary.csv",
+    "bytes": 151452777,
+    "sha256": "c37bffb9dd6c51d38d259a2d340ecf796194729f656d474828512390db1ff0c9"
+  },
+  "gnome_r2scan": {
+    "file": "gnome_stable_materials_r2scan.csv",
+    "url": "https://storage.googleapis.com/gdm_materials_discovery/gnome_data/stable_materials_r2scan.csv",
+    "bytes": 22004293,
+    "sha256": "6a811395b065f43ae7911597405eec0ecfa88251e918f4c0ba8e4e99a75656fd"
+  },
+  "jarvis_dft_3d": {
+    "file": "jdft_3d.json",
+    "url": "https://ndownloader.figshare.com/files/64391379",
+    "bytes": 254061560,
+    "sha256": "9dacb55ac8371c7c2bf0332933b55c98e9cca6201e92eb9d6fcd03aab0975907"
+  },
+  "matbench_wbm": {
+    "file": "wbm_summary.csv.gz",
+    "url": "https://ndownloader.figshare.com/files/71653870",
+    "bytes": 12739717,
+    "sha256": "68441da399d68f0da3183c692f51b115957e8da1e2ed809fd03e8859302992a2"
+  }
+}

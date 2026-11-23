@@ -1,0 +1,667 @@
+{
+  "dataset": "JARVIS-DFT-3D (93,902)",
+  "elapsed_sec": 98.3,
+  "n_total": 93902,
+  "n_dropped_parse": 0,
+  "n_competed_audited": 93901,
+  "n_uncompeted_elemental": 1,
+  "n_exact_verified": 93901,
+  "exact_verified_pct_of_competed": 100.0,
+  "n_z3_fallback": 864,
+  "z3_fallback_pct": 0.9201179966134546,
+  "n_nom_stable": 25908,
+  "n_nom_unstable": 67993,
+  "n_exact_zero_margin_boundary": 1240,
+  "n_near_zero_margin_lt_1mev": 5188,
+  "nom_unstable_same_composition_polymorph": 14185,
+  "nom_unstable_cross_composition_decomp": 53808,
+  "index_metadata": {
+    "n_elements": 89,
+    "n_injected_zero_elemental_refs": 5,
+    "injected_elemental_refs_sample": [
+      "ELEM_REF_Br",
+      "ELEM_REF_Ce",
+      "ELEM_REF_Gd",
+      "ELEM_REF_I",
+      "ELEM_REF_Re"
+    ],
+    "n_negative_elemental_phases": 115,
+    "negative_elemental_phases_sample": [
+      [
+        "JVASP-14757",
+        "Li",
+        -0.00017
+      ],
+      [
+        "JVASP-88846",
+        "Eu",
+        -0.00037
+      ],
+      [
+        "JVASP-98780",
+        "S",
+        -0.01574
+      ],
+      [
+        "JVASP-91464",
+        "S",
+        -0.01471
+      ],
+      [
+        "JVASP-105705",
+        "O",
+        -0.01178
+      ],
+      [
+        "JVASP-95268",
+        "S",
+        -0.01738
+      ],
+      [
+        "JVASP-14600",
+        "Pu",
+        -0.09757
+      ],
+      [
+        "JVASP-102494",
+        "In",
+        -0.00249
+      ],
+      [
+        "JVASP-106496",
+        "Cd",
+        -0.00992
+      ],
+      [
+        "JVASP-102277",
+        "Er",
+        -0.0035
+      ]
+    ]
+  },
+  "all_status_10mev": {
+    "Certified_Robust_Unstable": 53816,
+    "Fragile": 25650,
+    "Certified_Robust_Stable": 14435
+  },
+  "all_status_25mev": {
+    "Fragile": 42821,
+    "Certified_Robust_Unstable": 43246,
+    "Certified_Robust_Stable": 7834
+  },
+  "all_status_50mev": {
+    "Fragile": 57386,
+    "Certified_Robust_Unstable": 33086,
+    "Certified_Robust_Stable": 3429
+  },
+  "all_status_hetero": {
+    "Certified_Robust_Unstable": 40258,
+    "Fragile": 47441,
+    "Certified_Robust_Stable": 6202
+  },
+  "nom_stable_status_10mev": {
+    "Fragile": 11473,
+    "Certified_Robust_Stable": 14435
+  },
+  "nom_stable_status_25mev": {
+    "Fragile": 18074,
+    "Certified_Robust_Stable": 7834
+  },
+  "nom_stable_status_50mev": {
+    "Fragile": 22479,
+    "Certified_Robust_Stable": 3429
+  },
+  "nom_stable_status_hetero": {
+    "Fragile": 19706,
+    "Certified_Robust_Stable": 6202
+  },
+  "nom_stable_eps_unif_mev_quantiles": {
+    "p10": 0.2696000000000004,
+    "p25": 3.917443181818182,
+    "p50": 12.447769230769232,
+    "p75": 30.242339285714287,
+    "p90": 59.63913333333332
+  },
+  "phase_switching": {
+    "nom_stable_count": 921,
+    "nom_stable_pct": 3.5548865215377488,
+    "nom_stable_critical_robust_to_fragile_flips": 17,
+    "nom_stable_overest_median_pct": 2.3389262646284332,
+    "nom_stable_overest_p90_pct": 10.985716196928198,
+    "nom_stable_overest_max_pct": 52.47692325465867,
+    "nom_unstable_count": 8324,
+    "nom_unstable_pct": 12.242436721427206,
+    "top_stable_examples": [
+      {
+        "id": "JVASP-14649",
+        "formula": "NpCo2",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 90.827,
+        "naive_scale": 1.6514,
+        "true_critical_scale": 1.083,
+        "overestimation_pct": 52.48,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-106870",
+          "JVASP-25321"
+        ],
+        "adv_decomp": [
+          "JVASP-110829",
+          "JVASP-25321"
+        ]
+      },
+      {
+        "id": "JVASP-109659",
+        "formula": "YTh",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 29.63,
+        "naive_scale": 0.5387,
+        "true_critical_scale": 0.3549,
+        "overestimation_pct": 51.8,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-187858",
+          "JVASP-21199"
+        ],
+        "adv_decomp": [
+          "JVASP-123302"
+        ]
+      },
+      {
+        "id": "JVASP-124026",
+        "formula": "LaPr3",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 9.723,
+        "naive_scale": 0.1768,
+        "true_critical_scale": 0.1248,
+        "overestimation_pct": 41.67,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-176655",
+          "JVASP-177367"
+        ],
+        "adv_decomp": [
+          "JVASP-103612"
+        ]
+      },
+      {
+        "id": "JVASP-41507",
+        "formula": "Tm2MgRu",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 186.974,
+        "naive_scale": 2.9718,
+        "true_critical_scale": 2.1712,
+        "overestimation_pct": 36.87,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-128209",
+          "JVASP-20321",
+          "JVASP-78347"
+        ],
+        "adv_decomp": [
+          "JVASP-128209",
+          "JVASP-169386",
+          "JVASP-41479"
+        ]
+      },
+      {
+        "id": "JVASP-20769",
+        "formula": "OsSe2",
+        "chem_class": "chalcogenide_pnictide",
+        "nominal_margin_mev": 192.443,
+        "naive_scale": 5.4984,
+        "true_critical_scale": 4.0592,
+        "overestimation_pct": 35.45,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-187896",
+          "JVASP-21211"
+        ],
+        "adv_decomp": [
+          "JVASP-123689"
+        ]
+      },
+      {
+        "id": "JVASP-128429",
+        "formula": "MnTe2",
+        "chem_class": "tm_non_oxide",
+        "nominal_margin_mev": 187.9,
+        "naive_scale": 4.1756,
+        "true_critical_scale": 3.1796,
+        "overestimation_pct": 31.32,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-1023",
+          "JVASP-922"
+        ],
+        "adv_decomp": [
+          "JVASP-1023",
+          "JVASP-90831"
+        ]
+      },
+      {
+        "id": "JVASP-184841",
+        "formula": "PtBr2",
+        "chem_class": "halide_oxide_main",
+        "nominal_margin_mev": 138.4,
+        "naive_scale": 3.46,
+        "true_critical_scale": 2.646,
+        "overestimation_pct": 30.76,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "ELEM_REF_Br",
+          "JVASP-14607"
+        ],
+        "adv_decomp": [
+          "JVASP-125236",
+          "JVASP-14607"
+        ]
+      },
+      {
+        "id": "JVASP-37119",
+        "formula": "PuCoC2",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 170.64,
+        "naive_scale": 3.1025,
+        "true_critical_scale": 2.3744,
+        "overestimation_pct": 30.66,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-106870",
+          "JVASP-154398",
+          "JVASP-25254"
+        ],
+        "adv_decomp": [
+          "JVASP-106870",
+          "JVASP-14637",
+          "JVASP-154398"
+        ]
+      },
+      {
+        "id": "JVASP-106241",
+        "formula": "Eu2Mg",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 68.183,
+        "naive_scale": 1.2397,
+        "true_critical_scale": 0.952,
+        "overestimation_pct": 30.22,
+        "critical_robust_to_fragile_flip": true,
+        "nom_decomp": [
+          "JVASP-194201",
+          "JVASP-88846"
+        ],
+        "adv_decomp": [
+          "JVASP-103252",
+          "JVASP-194201"
+        ]
+      },
+      {
+        "id": "JVASP-107743",
+        "formula": "PuTaC2",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 139.722,
+        "naive_scale": 2.43,
+        "true_critical_scale": 1.8831,
+        "overestimation_pct": 29.04,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-154398",
+          "JVASP-20073",
+          "JVASP-25254"
+        ],
+        "adv_decomp": [
+          "JVASP-14637",
+          "JVASP-20073"
+        ]
+      },
+      {
+        "id": "JVASP-35446",
+        "formula": "Pu2W2C3",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 156.664,
+        "naive_scale": 2.384,
+        "true_critical_scale": 1.8478,
+        "overestimation_pct": 29.02,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-154398",
+          "JVASP-25254",
+          "JVASP-57675"
+        ],
+        "adv_decomp": [
+          "JVASP-14637",
+          "JVASP-57675"
+        ]
+      },
+      {
+        "id": "JVASP-41183",
+        "formula": "MnGeRu2",
+        "chem_class": "tm_non_oxide",
+        "nominal_margin_mev": 48.528,
+        "naive_scale": 1.0307,
+        "true_critical_scale": 0.805,
+        "overestimation_pct": 28.03,
+        "critical_robust_to_fragile_flip": true,
+        "nom_decomp": [
+          "JVASP-14664",
+          "JVASP-154945",
+          "JVASP-922"
+        ],
+        "adv_decomp": [
+          "JVASP-132216",
+          "JVASP-154945",
+          "JVASP-41275"
+        ]
+      },
+      {
+        "id": "JVASP-36354",
+        "formula": "PaN",
+        "chem_class": "f_block_non_oxide",
+        "nominal_margin_mev": 1763.16,
+        "naive_scale": 32.0575,
+        "true_critical_scale": 25.391,
+        "overestimation_pct": 26.26,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-105227",
+          "JVASP-149611"
+        ],
+        "adv_decomp": [
+          "JVASP-125702",
+          "JVASP-149611"
+        ]
+      },
+      {
+        "id": "JVASP-41337",
+        "formula": "MnGaRu2",
+        "chem_class": "tm_non_oxide",
+        "nominal_margin_mev": 62.4,
+        "naive_scale": 1.3312,
+        "true_critical_scale": 1.071,
+        "overestimation_pct": 24.3,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-14664",
+          "JVASP-922",
+          "JVASP-93740"
+        ],
+        "adv_decomp": [
+          "JVASP-191766",
+          "JVASP-41275",
+          "JVASP-93740"
+        ]
+      },
+      {
+        "id": "JVASP-137189",
+        "formula": "SbAs",
+        "chem_class": "chalcogenide_pnictide",
+        "nominal_margin_mev": 23.82,
+        "naive_scale": 0.6806,
+        "true_critical_scale": 0.5486,
+        "overestimation_pct": 24.06,
+        "critical_robust_to_fragile_flip": false,
+        "nom_decomp": [
+          "JVASP-14591",
+          "JVASP-14603"
+        ],
+        "adv_decomp": [
+          "JVASP-124632",
+          "JVASP-14603"
+        ]
+      }
+    ]
+  },
+  "by_chemistry_class": {
+    "chalcogenide_pnictide": {
+      "total": 10918,
+      "nom_stable": 2784,
+      "nom_stable_fragile_25mev": 1952,
+      "nom_stable_fragile_25mev_pct": 70.11494252873563,
+      "nom_stable_fragile_hetero": 1932,
+      "nom_stable_fragile_hetero_pct": 69.39655172413794,
+      "nom_stable_phase_switching": 82
+    },
+    "elemental_ref": {
+      "total": 914,
+      "nom_stable": 108,
+      "nom_stable_fragile_25mev": 101,
+      "nom_stable_fragile_25mev_pct": 93.51851851851852,
+      "nom_stable_fragile_hetero": 98,
+      "nom_stable_fragile_hetero_pct": 90.74074074074075,
+      "nom_stable_phase_switching": 0
+    },
+    "f_block_non_oxide": {
+      "total": 17971,
+      "nom_stable": 8619,
+      "nom_stable_fragile_25mev": 5396,
+      "nom_stable_fragile_25mev_pct": 62.60587075066713,
+      "nom_stable_fragile_hetero": 6767,
+      "nom_stable_fragile_hetero_pct": 78.5125884673396,
+      "nom_stable_phase_switching": 464
+    },
+    "f_block_oxide_fluoride": {
+      "total": 4328,
+      "nom_stable": 1996,
+      "nom_stable_fragile_25mev": 1165,
+      "nom_stable_fragile_25mev_pct": 58.366733466933866,
+      "nom_stable_fragile_hetero": 1611,
+      "nom_stable_fragile_hetero_pct": 80.71142284569139,
+      "nom_stable_phase_switching": 47
+    },
+    "ggau_oxide_fluoride": {
+      "total": 11069,
+      "nom_stable": 1355,
+      "nom_stable_fragile_25mev": 1162,
+      "nom_stable_fragile_25mev_pct": 85.75645756457564,
+      "nom_stable_fragile_hetero": 1273,
+      "nom_stable_fragile_hetero_pct": 93.94833948339483,
+      "nom_stable_phase_switching": 46
+    },
+    "halide_oxide_main": {
+      "total": 18789,
+      "nom_stable": 4509,
+      "nom_stable_fragile_25mev": 3330,
+      "nom_stable_fragile_25mev_pct": 73.85229540918164,
+      "nom_stable_fragile_hetero": 3509,
+      "nom_stable_fragile_hetero_pct": 77.82213351075626,
+      "nom_stable_phase_switching": 68
+    },
+    "intermetallic": {
+      "total": 16660,
+      "nom_stable": 3980,
+      "nom_stable_fragile_25mev": 2989,
+      "nom_stable_fragile_25mev_pct": 75.10050251256281,
+      "nom_stable_fragile_hetero": 2377,
+      "nom_stable_fragile_hetero_pct": 59.72361809045226,
+      "nom_stable_phase_switching": 57
+    },
+    "tm_non_oxide": {
+      "total": 13252,
+      "nom_stable": 2557,
+      "nom_stable_fragile_25mev": 1979,
+      "nom_stable_fragile_25mev_pct": 77.39538521705123,
+      "nom_stable_fragile_hetero": 2139,
+      "nom_stable_fragile_hetero_pct": 83.65271802894017,
+      "nom_stable_phase_switching": 157
+    }
+  },
+  "published_ehull_forensic_audit": {
+    "n_all_finite_published_ehull": 93902,
+    "all_published_ehull_median_ev": 1.7189,
+    "published_ehull_gt_0_5ev": 73558,
+    "published_ehull_gt_1_0ev": 63386,
+    "gt_1_0ev_subset_median_ev": 2.3859,
+    "elemental_nfu1_count": 915,
+    "elemental_nfu1_median_ehull_ev": 0.0317,
+    "certmat_nom_stable_published_ehull": {
+      "count": 25908,
+      "median_ev": 1.6118,
+      "gt_0_5ev_count": 19843,
+      "gt_0_5ev_pct": 76.59024239617108,
+      "gt_1_0ev_count": 16898,
+      "gt_1_0ev_pct": 65.2230971128609
+    },
+    "n_multinary_checked": 92955,
+    "hypothesis_div_nfu_fit": {
+      "median_abs_residual_ev": 0.006765217391304201,
+      "match_lt_0_01ev_count": 61990,
+      "match_lt_0_01ev_pct": 66.68818245387553,
+      "match_lt_0_05ev_count": 78751,
+      "match_lt_0_05ev_pct": 84.71948792426443
+    },
+    "negative_control_no_div_nfu": {
+      "median_abs_residual_ev": 2.604724,
+      "match_lt_0_01ev_pct": 0.1828841912753483,
+      "match_lt_0_05ev_pct": 0.9477704265504814
+    },
+    "negative_control_random_elem_refs": {
+      "median_abs_residual_ev": 2.1077927272727273,
+      "match_lt_0_01ev_pct": 0.22376418697219086,
+      "match_lt_0_05ev_pct": 1.1952019794524231
+    },
+    "algorithmically_selected_stable_examples": [
+      {
+        "jid": "JVASP-106708",
+        "formula": "U2Pd3Rh3",
+        "n_atoms_fu": 8,
+        "formation_energy_peratom": -0.67233,
+        "optb88vdw_total_energy": -4.93522,
+        "certmat_margin_mev": 28.865,
+        "published_ehull": 3.646,
+        "predicted_per_atom_div_nfu_ehull": 3.646,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-109512",
+        "formula": "CrGaRu2",
+        "n_atoms_fu": 4,
+        "formation_energy_peratom": -0.15943,
+        "optb88vdw_total_energy": -4.60243,
+        "certmat_margin_mev": 27.076,
+        "published_ehull": 3.2924,
+        "predicted_per_atom_div_nfu_ehull": 3.2924,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-13318",
+        "formula": "BaNd2Se4",
+        "n_atoms_fu": 7,
+        "formation_energy_peratom": -2.02903,
+        "optb88vdw_total_energy": -3.6637,
+        "certmat_margin_mev": 57.043,
+        "published_ehull": 1.1113,
+        "predicted_per_atom_div_nfu_ehull": 1.1113,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-15157",
+        "formula": "TbB2Ru3",
+        "n_atoms_fu": 6,
+        "formation_energy_peratom": -0.45204,
+        "optb88vdw_total_energy": -5.75129,
+        "certmat_margin_mev": 49.625,
+        "published_ehull": 4.3407,
+        "predicted_per_atom_div_nfu_ehull": 4.3407,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-152492",
+        "formula": "TbAlPt",
+        "n_atoms_fu": 3,
+        "formation_energy_peratom": -1.20582,
+        "optb88vdw_total_energy": -3.75408,
+        "certmat_margin_mev": 146.096,
+        "published_ehull": 1.2969,
+        "predicted_per_atom_div_nfu_ehull": 1.2969,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-15433",
+        "formula": "NdGe2Pd2",
+        "n_atoms_fu": 5,
+        "formation_energy_peratom": -0.80595,
+        "optb88vdw_total_energy": -2.55518,
+        "certmat_margin_mev": 87.006,
+        "published_ehull": 1.2382,
+        "predicted_per_atom_div_nfu_ehull": 1.2382,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-16516",
+        "formula": "GaIr",
+        "n_atoms_fu": 2,
+        "formation_energy_peratom": -0.35185,
+        "optb88vdw_total_energy": -3.13769,
+        "certmat_margin_mev": 41.328,
+        "published_ehull": 1.217,
+        "predicted_per_atom_div_nfu_ehull": 1.217,
+        "abs_diff_ev": 0.0
+      },
+      {
+        "jid": "JVASP-170312",
+        "formula": "TbGePd2",
+        "n_atoms_fu": 4,
+        "formation_energy_peratom": -0.91054,
+        "optb88vdw_total_energy": -2.76098,
+        "certmat_margin_mev": 25.621,
+        "published_ehull": 1.1602,
+        "predicted_per_atom_div_nfu_ehull": 1.1602,
+        "abs_diff_ev": 0.0
+      }
+    ]
+  },
+  "theorem2_reference_consistency_audit": {
+    "n_checked_common_pool": 93902,
+    "r2_linear_reference_fit": 0.9999407437119451,
+    "condition_number": 77.6180939035051,
+    "residual_mae_mev": 3.064198910525685,
+    "residual_median_mev": 0.5398966249828829,
+    "residual_p95_mev": 5.471637767603254,
+    "residual_max_mev": 321.05177044918776,
+    "n_residual_gt_1mev": 30163,
+    "n_residual_gt_10mev": 2654,
+    "n_residual_gt_10mev_pct": 2.826350876445656,
+    "n_residual_gt_50mev": 1540,
+    "n_residual_gt_50mev_pct": 1.6400076675683157,
+    "unconfounded_1000_sample_margin_diff": {
+      "n_checked": 1000,
+      "median_abs_diff_mev": 0.004999999999881766,
+      "p95_abs_diff_mev": 2.8772291666666647,
+      "max_abs_diff_mev": 417.39999999999986,
+      "consistent_ref_subset_n": 663,
+      "consistent_ref_median_diff_mev": 0.00410256410256693,
+      "mixed_ref_subset_n": 337,
+      "mixed_ref_median_diff_mev": 0.004999999999999005
+    }
+  },
+  "certificate_verification": {
+    "tsv_file": "certs_jarvis_phase_sample.tsv",
+    "tsv_sha256": "0ecd5adcb15f5281a0ef986a0d148663f49bba99305207d0d12f8c1e9b0047f6",
+    "written": 5000,
+    "independent_exact_check": {
+      "tsv_path": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\certmat\\results\\certs_jarvis_phase_sample.tsv",
+      "total": 5000,
+      "passed": 5000,
+      "failed": 0,
+      "by_kind": {
+        "INTERVAL_UNSTABLE": 2165,
+        "INTERVAL_FRAGILE_STAB": 1472,
+        "INTERVAL_FRAGILE_DESTAB": 1052,
+        "INTERVAL_STABLE": 311
+      },
+      "all_passed": true
+    },
+    "lean_binary_check": {
+      "lean_available": true,
+      "lean_built": true,
+      "binary": "C:\\Users\\USER\\.gemini\\antigravity\\scratch\\certmat\\lean\\.lake\\build\\bin\\certmat-check.exe",
+      "returncode": 0,
+      "total": 5000,
+      "passed": 5000,
+      "failed": 0,
+      "stdout": "certmat-check: total=5000 passed=5000 failed=0",
+      "stderr": "",
+      "all_passed": true
+    }
+  }
+}
