@@ -29,7 +29,7 @@
 \newtheorem{corollary}{Corollary}
 
 \title{\textbf{CertMat: Formally Certified Robust Phase and Elastic Stability Verification Across One Million Inorganic Crystals}}
-\author{CertMat Research Package}
+\author{Hyungyu Choi \\ \small Independent Researcher}
 \date{November 2026}
 
 \begin{document}
@@ -222,6 +222,12 @@ Auditing all \textbf{34,323} valid $6\times 6$ stiffness tensors in \texttt{jdft
 
 \section{Trusted Computing Base, Limitations, and Reproducibility}
 All \textbf{95,348} serialized TSV certificates, incremental \texttt{lake build} freshness, \textbf{51/51} \texttt{\#print axioms} checks (0 \texttt{sorryAx}), \textbf{540/540} stratified dataset-binding checks, \textbf{15/15} \texttt{pytest} suites, and the full SHA-256 artifact manifest are verified in one command via \texttt{python reproduce\_all.py {-}{-}verify-only}. Remaining phase evaluations outside the 30,000 serialized phase TSVs are verified in exact Python \texttt{Fraction} arithmetic, intra-catalog GNoME/WBM margins represent upper bounds relative to combined MP+catalog hulls, and \emph{Phase Switching} percentages along exact degenerate ties (e.g., 1,240 zero-margin boundaries in JARVIS) depend on solver tie-breaking.
+
+\paragraph{Code and Data Availability.}
+All source code, the standalone Lean~4 verification kernel (\texttt{lean/}), 95,348 machine-verified TSV rational certificates (\texttt{results/}), high-resolution figure generators, and the one-click reproduction suite (\texttt{reproduce\_all.py}) are publicly available under the MIT License at \url{https://github.com/sunpunggi1/certmat} (release \texttt{v1.0.0}). The upstream NIST JARVIS-DFT 3D \texttt{ehull} unit-scaling issue report and minimal reproduction script are filed at \url{https://github.com/usnistgov/jarvis/issues/343}.
+
+\paragraph{Disclosure of AI-Assisted Technologies.}
+AI coding and verification agents were used under the author's direction to assist with software engineering, automated database auditing pipelines, and manuscript drafting. All 51 mechanized theorems, 95,348 serialized rational certificates, raw-dataset bindings, and reported empirical metrics are independently verified by the compiled Lean~4 kernel (zero \texttt{sorry}, standard axioms only), an independent pure-\texttt{Fraction} verifier, and deterministic regression tests.
 
 \bibliographystyle{unsrtnat}
 \bibliography{references}
